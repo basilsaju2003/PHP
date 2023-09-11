@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>login</title>
+        <script>
+            function validate(){
+                var name=document.forms["fname"]["name"];
+                var name=document.forms["email"]["email"];
+            }
+        </script>
+        <body>
+            <form name="login" action="action.php" method="post" onsubmit="return validate()">
+                NAME:<input type="text" name="NAME" required><br>
+                EMAIL:<input type="email" name="EMAIL" required><br>
+                <input type="submit" name="Submit">
+            </form>
+            </body>
+        </body>
+    </head>
+</html>
